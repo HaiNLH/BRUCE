@@ -178,3 +178,5 @@ class MAP(_Metric):
         self._cnt += count
         self._sum += score
         return score/count
+if __name__ == "__main__":
+    import sys

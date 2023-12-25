@@ -15,6 +15,7 @@ import torch
 from implicit.bpr import BayesianPersonalizedRanking
 from common.Dataset import Dataset
 
+
 def create_out_dir(args):
     start_time_string = datetime.now().strftime("%Y-%m-%d-%H%M")
     bundle = "avg_items" if args.avg_items else "bundle" 
